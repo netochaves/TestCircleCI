@@ -1,5 +1,5 @@
 install:
-  - nvm install && nvm use
+  - nvm install -B
   - npm install -g "npm@$(jq -r '.engines.npm' package.json)"
   - npm ci
 matrix:
