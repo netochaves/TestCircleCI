@@ -1,5 +1,5 @@
 install:
-  - nvm install 8
+  - nvm install 11
   - npm install -g "npm@$(jq -r '.engines.npm' package.json)"
   - npm ci
 matrix:
