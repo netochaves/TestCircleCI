@@ -17,4 +17,5 @@ matrix:
       script:
         - "./android/gradlew assembleRelease -p android/"
       cache:
-        - npm
+        directories:
+          - "node_modules"
